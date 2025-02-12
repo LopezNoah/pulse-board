@@ -1,8 +1,8 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "f21cb8ae-cd31-4126-98d6-0de416003920",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "76d1e6a0-e3f8-4a98-bc9e-cf61b2beadfb",
+  "prevId": "f21cb8ae-cd31-4126-98d6-0de416003920",
   "tables": {
     "activities": {
       "name": "activities",
@@ -18,7 +18,7 @@
           "name": "created_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -26,7 +26,7 @@
           "name": "updated_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -79,7 +79,7 @@
           "name": "created_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -87,7 +87,7 @@
           "name": "updated_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -154,7 +154,7 @@
           "name": "created_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -162,7 +162,7 @@
           "name": "updated_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -222,7 +222,7 @@
           "name": "created_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -230,7 +230,7 @@
           "name": "updated_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -297,7 +297,7 @@
           "name": "created_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
@@ -305,7 +305,7 @@
           "name": "updated_at",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false,
           "default": "(CURRENT_DATE)"
         },
