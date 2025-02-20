@@ -1,50 +1,13 @@
-# Welcome to React Router!
+# Pulse Board
+This project is inspired by a post I saw on X (Twitter). It looked clean enough that I wanted to re-create it with some additional CRUD features.
 
-A modern, production-ready template for building full-stack React applications using React Router.
+**My implementation**<br>
+![Screenshot 2025-02-19 at 8 10 49 PM](https://github.com/user-attachments/assets/74cd1891-d09c-4665-bfb1-b51f800e3210)
 
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+**Original**<br>
+![Screenshot 2025-02-19 at 8 09 58 PM](https://github.com/user-attachments/assets/bd334166-acfa-490a-9ec4-ea99d2556662)
 
 ## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Run an initial database migration:
-
-```bash
-npm run db:migrate
-```
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
 
 ## Deployment
 
@@ -81,10 +44,6 @@ You can then promote a version to production after verification or roll it out p
 ```sh
 npx wrangler versions deploy
 ```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
 ---
 
